@@ -130,6 +130,7 @@ const MainSection = () => {
             <video
               src="./videos/section 3.webm"
               muted
+              preload="metadata"
               loop
               autoPlay
               className="w-[80%] h-[80%]"
@@ -190,6 +191,8 @@ const MainSection = () => {
             <div className="bg">
               <video
                 src="./videos/project 1.webm"
+                poster="./videos/project 1.png"
+                preload="metadata"
                 autoPlay
                 muted
                 loop
@@ -197,6 +200,8 @@ const MainSection = () => {
               ></video>
               <video
                 src="./videos/project 2.webm"
+                poster="./videos/project 2.png"
+                preload="metadata"
                 autoPlay
                 muted
                 loop
@@ -204,6 +209,8 @@ const MainSection = () => {
               ></video>
               <video
                 src="./videos/project 3.webm"
+                poster="./videos/project 3.png"
+                preload="metadata"
                 autoPlay
                 muted
                 loop

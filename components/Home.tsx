@@ -44,10 +44,10 @@ const Home = () => {
         </div>
     </div>
 
-    <video src="./videos/section1 bg.mp4" muted autoPlay loop className='absolute top-0 left-0 w-full h-[100vh] object-cover -z-1'></video>
+    <video src="./videos/section1 bg.mp4" preload='metadata' poster='./videos/section1 bg.png' muted autoPlay loop className='absolute top-0 left-0 w-full h-[100vh] object-cover -z-1'></video>
 </div>
  <div className="section2 min-h-[100vh] w-full cursor-pointer">
- <video src="./videos/section 2.mp4" muted loop autoPlay  className='object-cover h-full w-full'></video>
+ <video src="./videos/section 2.mp4" muted loop autoPlay preload='metadata' poster='./videos/section 2.png'  className='object-cover h-full w-full'></video>
 </div>
   </>
   )
